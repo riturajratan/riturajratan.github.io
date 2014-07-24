@@ -1,0 +1,65 @@
+.news-scroll-area{background-color:#FFF; padding:10px; font-size:12px; }
+
+
+.news-scroll-area article figure {
+    height: 50px;
+    left: 0;
+	padding:5px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 50px;
+}
+
+
+.news-scroll-area article {
+    margin-bottom: 10px;
+	border-bottom:dashed 1px #dddddd;
+    min-height: 56px;
+	padding-right:10px;
+    padding-bottom: 10px;
+	padding-top:3px;
+    padding-left: 60px;
+    position: relative;
+}
+
+.news-scroll-area p{font-size:13px; line-height:18px; }
+
+.news-scroll-area article h1{
+	color:#666666; font-size:13px; margin-bottom:0px; font-weight:bold!important; text-transform:capitalize; text-align:left;
+}
+
+.buyer-groups p{font-size:14px; text-align:center; }
+.buyer-group-box p{font-size:13px; line-height:18px; }
+.buyer-group-box{background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    margin-top: 12px;}
+
+
+.buyer-group-box article figure {
+    height: 115px;
+    left: 0;
+	padding:10px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 175px;
+}
+
+
+.buyer-group-box article {
+    margin-bottom: 10px;
+    min-height: 115px;
+	padding-right:10px;
+    padding-bottom: 10px;
+	padding-top:8px;
+    padding-left: 180px;
+    position: relative;
+}
+
+.buyer-group-box article h1{
+	color:#00ACED; font-size:14px; margin-bottom:0px; font-weight:bold!important; text-transform:capitalize; text-align:left;
+}

@@ -1,0 +1,111 @@
+/*  CHECKBOX */
+
+B.fmCheckbox {
+	float: left;
+	width: 18px;
+	height: 18px;
+	background: red;
+	position: relative;
+	cursor: pointer;
+	background: url("../images/icons/checkbox.png") no-repeat left -18px;
+	margin-top: 5px;
+	font-size: 9px;
+	line-height: 1%;
+	text-indent: -1000em;
+}
+
+B.fmCheckbox.checked { background-position: left top; }
+B.fmCheckbox:HOVER { background-position: -18px -18px; }
+B.fmCheckbox.checked:HOVER { background-position: -18px 0; }
+
+B.fmCheckbox.chbx-disabled { background-position: -36px 0; }
+
+B.fmCheckbox.checked.chbx-disabled,
+B.fmCheckbox.checked.chbx-disabled:HOVER { background-position: -36px top; }
+
+/*	SELECT BOX	*/
+
+.fmSelect {
+	width: 100% !important;
+	float: left;
+	position: relative;
+	outline: none;
+	z-index: 150;
+}
+
+.fmSelect STRONG { 
+	float: left;
+	width: 100%;
+	background: url("../images/icons/select-box-left.png") 0 0 no-repeat;
+	cursor: pointer;
+	position: relative;
+}
+
+.fmSelect STRONG SPAN {
+	display: block;
+	background: url("../images/icons/select-box-right.png") no-repeat right top;
+}
+
+.fmSelect STRONG SPAN CITE{
+	display: block;
+	padding: 12px 5px;
+	white-space: nowrap;
+	overflow: hidden;
+	font-style: normal;
+	margin-right: 33px;
+	font-size: 12px;
+	color: #999999;
+}
+
+.fmSelect UL {
+	position: absolute;
+	left: 0;
+	top: 36px;
+	margin: 0 !important;
+	padding: 0;
+	border: 1px solid #d3d3d3;
+	width: 100%;
+	list-style: none;
+	font-size: 13px;
+	background: white;
+	padding-top: 1px;
+	z-index: 1500;
+	display: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999999;
+}
+
+.fmSelect UL LI {
+	display: block;
+	padding: 5px 7px;
+	border-bottom: 1px solid #f8f8f8;
+}
+
+.fmSelect UL LI:hover {
+	background: #D3E9F6;
+	cursor: pointer;
+}
+
+.fnFileHidden {
+	position: absolute;
+	top: 0;
+	right: 0;
+	
+	z-index: 150;
+	height: 30px;
+	width: 15em !important;
+	filter: alpha(opacity: 0);
+	opacity: 0;
+	font-size: 30px;
+	padding: 0 1px;
+}
+
+/* * */
+
+.fmZero {
+	margin: 0 !important;
+	position: relative !important;
+}
+
+.fmHidden { display: none; }
