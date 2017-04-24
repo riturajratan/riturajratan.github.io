@@ -1,0 +1,61 @@
+body::-webkit-scrollbar-thumb,
+.cssload-box-loading:after,
+.bg-primary,
+.btn-default:after,
+.btn-primary:after,
+.icon-primary,
+.marked-list > li span:before,
+.timeline-date span,
+.img-container .img-panel a:hover,
+.fixed-btns .icon:hover,
+.owl-controls .owl-dot.active,
+.toTopButton,
+#style-switcher .toggle-switcher,
+.progress-wrapper .progress .progress-bar {
+	background: #4CAF50;
+}
+
+a:hover,
+a:focus,
+h1 a:focus, h1 a:hover, h2 a:focus, h2 a:hover, h3 a:focus, h3 a:hover, h4 a:focus, h4 a:hover, h5 a:focus, h5 a:hover, h6 a:focus, h6 a:hover, .h1 a:focus, .h1 a:hover, .h2 a:focus, .h2 a:hover, .h3 a:focus, .h3 a:hover, .h4 a:focus, .h4 a:hover, .h5 a:focus, .h5 a:hover, .h6 a:focus, .h6 a:hover,
+html body .text-primary,
+.btn-default:focus,
+.btn-primary:focus:hover,
+.btn-primary:hover,
+.btn-primary:active,
+blockquote:before,
+.popover-block .icon,
+.blog-post .post-text .post-data > * .icon,
+.contact-data li i,
+.count-on .counter,
+html body .k-nav-links li.active a,
+html body .k-nav-links a:hover,
+.k-nav.k-nav-fixed .k-nav-links li.active a,
+.header-phones .icon {
+	color: #4CAF50;
+}
+
+.btn-primary:focus,
+.btn-primary:active:focus,
+.btn-default,
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.form-control:focus,
+.img-container .img-panel a,
+.timeline-item:hover .timeline-descr:before,
+.first-section .list-inline a,
+.iso .button:hover,
+.iso .button.is-checked {
+	border-color: #4CAF50;
+}
+
+.list-icons li .icon {
+  fill: #4CAF50;
+}
+
+.progr-bar svg path:last-child {
+  stroke: #4CAF50;
+}
+
+
