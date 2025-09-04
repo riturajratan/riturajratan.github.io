@@ -1141,21 +1141,26 @@ body {
   margin-bottom: 60px;
 }
 
-/* Contact Grid Layout - FORCE DESKTOP LAYOUT */
+/* Contact Layout - FLEXBOX APPROACH FOR RELIABILITY */
 .contact-grid {
-  display: grid !important;
-  grid-template-columns: 1fr 1fr !important;
+  display: flex !important;
+  flex-direction: row !important;
   gap: 60px !important;
   margin: 60px 0;
   width: 100%;
+  align-items: flex-start;
 }
 
 .contact-left {
-  width: 100%;
+  flex: 1 1 50%;
+  width: 50%;
+  max-width: 50%;
 }
 
 .contact-right {
-  width: 100%;
+  flex: 1 1 50%;
+  width: 50%;
+  max-width: 50%;
 }
 
 .form-header {
@@ -1699,21 +1704,19 @@ body {
 }
 
 /* Responsive Design */
-/* Force desktop layout on larger screens */
+/* Desktop - Flex Layout */
 @media (min-width: 769px) {
   .contact-grid {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
+    display: flex !important;
+    flex-direction: row !important;
     gap: 60px !important;
   }
-}
-
-/* Additional breakpoint for safety */
-@media (min-width: 1024px) {
-  .contact-grid {
-    display: grid !important;
-    grid-template-columns: 1fr 1fr !important;
-    gap: 60px !important;
+  
+  .contact-left,
+  .contact-right {
+    flex: 1 1 50% !important;
+    width: 50% !important;
+    max-width: 50% !important;
   }
 }
 
@@ -1857,11 +1860,18 @@ body {
     gap: 40px;
   }
   
-  /* Only single column on mobile */
+  /* Mobile - Stack vertically */
   .contact-grid {
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-    gap: 40px;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 40px !important;
+  }
+  
+  .contact-left,
+  .contact-right {
+    flex: 1 1 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
   }
   
   .contact-left::after,
