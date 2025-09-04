@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
     const loadingMessages = [
         'npm install awesome-developer',
-        'git clone https://github.com/riturajratan/portfolio.git',
-        'Initializing portfolio...',
+        'git clone https://github.com/riturajratan/riturajratan.github.io',
+        'Initializing riturajratan.com...',
         'Loading awesome projects...',
-        'Portfolio ready! 🚀'
+        'Site ready! 🚀'
     ];
     
     let messageIndex = 0;
