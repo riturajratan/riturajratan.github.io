@@ -9,11 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const loadingMessages = [
         'npm install awesome-developer',
         'git clone https://github.com/riturajratan/portfolio.git',
-        'docker build -t technical-architect .',
-        'kubectl apply -f deployment.yaml',
         'Initializing portfolio...',
         'Loading awesome projects...',
-        'Connecting to the matrix...',
         'Portfolio ready! 🚀'
     ];
     
@@ -27,23 +24,23 @@ document.addEventListener('DOMContentLoaded', function() {
             if (charIndex < currentMessage.length) {
                 typedText.textContent = currentMessage.substring(0, charIndex + 1);
                 charIndex++;
-                setTimeout(typeMessage, 50);
+                setTimeout(typeMessage, 30); // Faster typing speed
             } else {
                 setTimeout(() => {
                     charIndex = 0;
                     messageIndex++;
                     typeMessage();
-                }, 1000);
+                }, 400); // Shorter pause between messages
             }
         } else {
-            // Hide loading screen
+            // Hide loading screen faster
             setTimeout(() => {
                 loadingScreen.classList.add('hidden');
                 setTimeout(() => {
                     loadingScreen.style.display = 'none';
                     initializeAnimations();
-                }, 500);
-            }, 1000);
+                }, 300);
+            }, 500);
         }
     }
     
