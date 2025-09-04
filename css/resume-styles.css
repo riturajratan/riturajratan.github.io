@@ -1145,27 +1145,30 @@ body {
 .contact-grid {
   display: grid !important;
   grid-template-columns: 1fr 1fr !important;
-  gap: 60px;
-  align-items: start;
+  grid-template-rows: 1fr !important;
+  gap: 60px !important;
+  align-items: start !important;
+  justify-items: stretch !important;
   margin-bottom: 60px;
   min-height: 600px;
-  width: 100%;
+  width: 100% !important;
+  box-sizing: border-box;
 }
 
 .contact-left {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 100%;
+  display: block !important;
+  width: 100% !important;
+  box-sizing: border-box;
+  grid-column: 1;
 }
 
 .contact-right {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 100%;
+  display: block !important;
+  width: 100% !important;
+  box-sizing: border-box;
+  grid-column: 2;
 }
 
 .form-header {
@@ -1709,12 +1712,33 @@ body {
 }
 
 /* Responsive Design */
-/* Desktop layout - ensure grid works on larger screens */
+/* Desktop layout - FORCE two-column layout on larger screens */
 @media (min-width: 769px) {
   .contact-grid {
     display: grid !important;
     grid-template-columns: 1fr 1fr !important;
-    gap: 60px;
+    grid-template-rows: 1fr !important;
+    gap: 60px !important;
+    align-items: start !important;
+    justify-items: stretch !important;
+  }
+  
+  .contact-left {
+    grid-column: 1 !important;
+  }
+  
+  .contact-right {
+    grid-column: 2 !important;
+  }
+}
+
+/* Tablet and larger desktop - MORE SPECIFIC */
+@media (min-width: 900px) {
+  .contact-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    grid-template-rows: 1fr !important;
+    gap: 60px !important;
   }
 }
 
@@ -1853,7 +1877,11 @@ body {
     grid-template-columns: 1fr;
   }
   
-  .contact-info,
+  .contact-info {
+    grid-template-columns: 1fr !important;
+    gap: 40px;
+  }
+  
   .contact-grid {
     grid-template-columns: 1fr !important;
     gap: 40px;
