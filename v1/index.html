@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Rituraj Singh Ratan - Technical Architect & Full Stack Developer</title>
+    <meta name="description" content="Technical Architect and Full Stack Developer with 15+ years of experience. Specialized in JavaScript, React, Node.js, and scalable web applications.">
+    <meta name="keywords" content="Rituraj Singh Ratan, Technical Architect, Full Stack Developer, JavaScript, React, Node.js, Angular, MongoDB, Stack Overflow">
+    <meta name="author" content="Rituraj Singh Ratan">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Rituraj Singh Ratan - Technical Architect & Full Stack Developer">
+    <meta property="og:description" content="Technical Architect with 15+ years of experience building scalable applications">
+    <meta property="og:image" content="https://www.riturajratan.com/img/rituraj.jpg">
+    <meta property="og:url" content="https://www.riturajratan.com">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Prism.js for code highlighting -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-okaidia.min.css" rel="stylesheet" />
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/resume-styles.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Rituraj Singh Ratan",
+        "url": "https://www.riturajratan.com",
+        "image": "https://www.riturajratan.com/img/rituraj.jpg",
+        "jobTitle": "Technical Architect",
+        "description": "Technical Architect and Full Stack Developer with 15+ years of experience",
+        "email": "riturajratan@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Jaipur",
+            "addressRegion": "Rajasthan",
+            "addressCountry": "India"
+        },
+        "sameAs": [
+            "https://github.com/riturajratan",
+            "https://www.linkedin.com/in/riturajratan",
+            "https://stackoverflow.com/users/991275/rituraj-ratan",
+            "https://twitter.com/RatanRituraj"
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="terminal-loader">
+            <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <span class="btn-close"></span>
+                    <span class="btn-minimize"></span>
+                    <span class="btn-maximize"></span>
+                </div>
+                <div class="terminal-title">~ rituraj@dev: loading riturajratan.com ~</div>
+            </div>
+            <div class="terminal-body">
+                <div class="loading-text">
+                    <span class="prompt">$</span> <span class="typed-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <div class="loading-progress">
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="logo-text">
+                    <span class="comment">// </span>
+                    <span class="variable">riturajratan</span>
+                    <span class="operator">.</span>
+                    <span class="method">dev</span>
+                    <span class="parentheses">()</span>
+                </div>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <div class="nav-item">
+                    <a href="#home" class="nav-link">
+                        <span class="nav-number">01.</span>
+                        <span class="nav-text">Home</span>
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a href="#about" class="nav-link">
+                        <span class="nav-number">02.</span>
+                        <span class="nav-text">About</span>
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a href="#skills" class="nav-link">
+                        <span class="nav-number">03.</span>
+                        <span class="nav-text">Skills</span>
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a href="#experience" class="nav-link">
+                        <span class="nav-number">04.</span>
+                        <span class="nav-text">Experience</span>
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a href="#projects" class="nav-link">
+                        <span class="nav-number">05.</span>
+                        <span class="nav-text">Projects</span>
+                    </a>
+                </div>
+                <div class="nav-item">
+                    <a href="#contact" class="nav-link">
+                        <span class="nav-number">06.</span>
+                        <span class="nav-text">Contact</span>
+                    </a>
+                </div>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Side Social Links -->
+    <div class="side-links left-side">
+        <div class="social-links">
+            <a href="https://github.com/riturajratan" target="_blank" class="social-link">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/riturajratan" target="_blank" class="social-link">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://stackoverflow.com/users/991275/rituraj-ratan" target="_blank" class="social-link">
+                <i class="fab fa-stack-overflow"></i>
+            </a>
+            <a href="https://twitter.com/RatanRituraj" target="_blank" class="social-link">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+        <div class="vertical-line"></div>
+    </div>
+
+    <!-- Side Email -->
+    <div class="side-links right-side">
+        <div class="email-link">
+            <a href="mailto:riturajratan@gmail.com" class="email-text">riturajratan@gmail.com</a>
+        </div>
+        <div class="vertical-line"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-intro">
+                    <span class="greeting">Hello, my name is</span>
+                </div>
+                <div class="hero-name">
+                    <h1 class="name-large">Rituraj Singh Ratan.</h1>
+                </div>
+                <div class="hero-title">
+                    <h2 class="title-large">I build things for the web.</h2>
+                </div>
+                <div class="hero-description">
+                    <p>I'm a Technical Architect specializing in building exceptional digital experiences. Currently focused on creating scalable, accessible applications using modern JavaScript frameworks and cloud technologies.</p>
+                </div>
+                <div class="hero-cta">
+                    <a href="#projects" class="cta-button">
+                        <span class="button-text">Check out my work!</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-code">
+                <div class="code-window">
+                    <div class="code-header">
+                        <div class="code-buttons">
+                            <span class="code-btn red"></span>
+                            <span class="code-btn yellow"></span>
+                            <span class="code-btn green"></span>
+                        </div>
+                        <div class="code-title">developer.js</div>
+                    </div>
+                    <div class="code-content">
+                        <pre><code class="language-javascript">const developer = {
+  name: "Rituraj Singh Ratan",
+  role: "Technical Architect",
+  location: "Jaipur, India",
+  experience: "15+ years",
+  
+  skills: [
+    "JavaScript", "React", "Node.js",
+    "Angular", "MongoDB", "AWS"
+  ],
+  
+  passion: "Building scalable solutions",
+  
+  sayHi() {
+    return "Let's build something amazing!";
+  }
+};
+
+console.log(developer.sayHi());</code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll to explore</div>
+            <div class="scroll-arrow">
+                <i class="fas fa-arrow-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-number">02.</div>
+                <div class="section-title">About Me</div>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-description">
+                        <p>Hello! I'm Rituraj, a passionate Technical Architect and Full Stack Developer with over 15 years of experience in crafting digital solutions that make a difference.</p>
+                        
+                        <p>My journey in tech began with curiosity about how things work behind the screen. Today, I lead development teams and architect scalable applications that serve millions of users.</p>
+                        
+                        <p>I'm particularly excited about modern JavaScript frameworks, cloud architecture, and building tools that enhance developer productivity. When I'm not coding, you'll find me contributing to Stack Overflow (10K+ reputation) or sharing knowledge through technical blogs.</p>
+                        
+                        <p>Here are a few technologies I've been working with recently:</p>
+                    </div>
+                    <div class="tech-list">
+                        <div class="tech-column">
+                            <div class="tech-item">
+                                <i class="fas fa-play"></i>
+                                <span>JavaScript (ES6+)</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-play"></i>
+                                <span>React & Next.js</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-play"></i>
+                                <span>Node.js & Express</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-play"></i>
+                                <span>TypeScript</span>
+                            </div>
+                        </div>
+                        <div class="tech-column">
+                            <div class="tech-item">
+                                <i class="fas fa-play"></i>
+                                <span>Angular</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-play"></i>
+                                <span>MongoDB & PostgreSQL</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-play"></i>
+                                <span>AWS & Docker</span>
+                            </div>
+                            <div class="tech-item">
+                                <i class="fas fa-play"></i>
+                                <span>GraphQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <div class="image-overlay"></div>
+                        <img src="img/rituraj.jpg" alt="Rituraj Singh Ratan" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-number">03.</div>
+                <div class="section-title">Skills & Expertise</div>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Frontend Development</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript/TypeScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React & Next.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Angular</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Vue.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend Development</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js & Express</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">GraphQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">RESTful APIs</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="93"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Database & Cloud</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">PostgreSQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">AWS Services</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="78"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Architecture</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">System Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Git & CI/CD</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Microservices</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="87"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Performance Optimization</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="93"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-number">04.</div>
+                <div class="section-title">Where I've Worked</div>
+                <div class="section-line"></div>
+            </div>
+            <div class="experience-content">
+                <div class="experience-tabs">
+                    <div class="tab-list" role="tablist">
+                        <button class="tab-button active" data-tab="nagarro">Nagarro</button>
+                        <button class="tab-button" data-tab="sapient">Sapient</button>
+                        <button class="tab-button" data-tab="dotsquares">Dotsquares</button>
+                        <button class="tab-button" data-tab="freelance">Freelance</button>
+                    </div>
+                    <div class="tab-indicator"></div>
+                </div>
+                <div class="experience-panels">
+                    <div class="tab-panel active" id="nagarro">
+                        <div class="job-title">
+                            Associate Tech Lead <span class="company-name">@ Nagarro</span>
+                        </div>
+                        <div class="job-duration">November 2016 - Present</div>
+                        <div class="job-description">
+                            <ul>
+                                <li>Lead cross-functional teams of 8+ developers in architecting and delivering scalable web applications</li>
+                                <li>Designed and implemented microservices architecture serving 1M+ users with 99.9% uptime</li>
+                                <li>Established CI/CD pipelines reducing deployment time by 70% and increasing release frequency</li>
+                                <li>Mentored junior developers and conducted technical interviews for hiring top talent</li>
+                                <li>Collaborated with product teams to define technical roadmaps and strategic technology decisions</li>
+                            </ul>
+                        </div>
+                        <div class="job-tech">
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="tab-panel" id="sapient">
+                        <div class="job-title">
+                            Senior Software Engineer <span class="company-name">@ Sapient</span>
+                        </div>
+                        <div class="job-duration">May 2015 - November 2016</div>
+                        <div class="job-description">
+                            <ul>
+                                <li>Developed high-performance web applications for Fortune 500 clients</li>
+                                <li>Optimized existing codebases resulting in 40% improvement in page load times</li>
+                                <li>Implemented responsive designs that increased mobile user engagement by 60%</li>
+                                <li>Collaborated with UX/UI designers to create intuitive user experiences</li>
+                            </ul>
+                        </div>
+                        <div class="job-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">AngularJS</span>
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">jQuery</span>
+                        </div>
+                    </div>
+                    <div class="tab-panel" id="dotsquares">
+                        <div class="job-title">
+                            Senior Software Engineer <span class="company-name">@ Dotsquares</span>
+                        </div>
+                        <div class="job-duration">May 2013 - February 2015</div>
+                        <div class="job-description">
+                            <ul>
+                                <li>Built and maintained multiple client websites and web applications</li>
+                                <li>Implemented modern JavaScript frameworks and improved development workflows</li>
+                                <li>Worked closely with clients to understand requirements and deliver solutions</li>
+                                <li>Established coding standards and best practices within the development team</li>
+                            </ul>
+                        </div>
+                        <div class="job-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">jQuery</span>
+                        </div>
+                    </div>
+                    <div class="tab-panel" id="freelance">
+                        <div class="job-title">
+                            Full Stack Developer <span class="company-name">@ Freelance</span>
+                        </div>
+                        <div class="job-duration">2009 - 2013</div>
+                        <div class="job-description">
+                            <ul>
+                                <li>Started career building custom websites and applications for small businesses</li>
+                                <li>Developed strong problem-solving skills working on diverse projects</li>
+                                <li>Learned to communicate technical concepts to non-technical stakeholders</li>
+                                <li>Built foundation in web technologies and software development practices</li>
+                            </ul>
+                        </div>
+                        <div class="job-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-number">05.</div>
+                <div class="section-title">Some Things I've Built</div>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-content">
+                        <div class="project-overline">Featured Project</div>
+                        <div class="project-title">MaddyZone Platform</div>
+                        <div class="project-description">
+                            <p>A comprehensive digital platform showcasing projects, technical blog, and professional tools. Built with modern web technologies focusing on performance and user experience.</p>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-item">HTML5</span>
+                            <span class="tech-item">CSS3</span>
+                            <span class="tech-item">JavaScript</span>
+                            <span class="tech-item">Responsive Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/riturajratan/Maddyzone" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://maddyzone.com" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <a href="https://maddyzone.com" target="_blank">
+                            <div class="project-img">
+                                <div class="project-placeholder maddyzone">
+                                    <div class="logo-container">
+                                        <span class="logo-text">MaddyZone</span>
+                                        <div class="logo-subtitle">Digital Innovation Hub</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-overline">Featured Project</div>
+                        <div class="project-title">Resume Tailor AI</div>
+                        <div class="project-description">
+                            <p>AI-powered resume optimization tool that helps job seekers create ATS-friendly resumes tailored to specific job descriptions with real-time scoring and suggestions.</p>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-item">AI/ML</span>
+                            <span class="tech-item">Next.js</span>
+                            <span class="tech-item">Python</span>
+                            <span class="tech-item">NLP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.resumetailorai.net" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <a href="https://www.resumetailorai.net" target="_blank">
+                            <div class="project-img">
+                                <div class="project-placeholder resume-ai">
+                                    <div class="logo-container">
+                                        <i class="fas fa-file-alt"></i>
+                                        <span class="logo-text">Resume Tailor AI</span>
+                                        <div class="logo-subtitle">AI-Powered Resume Builder</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-overline">Open Source</div>
+                        <div class="project-title">Developer Portfolio</div>
+                        <div class="project-description">
+                            <p>A modern, responsive portfolio website template for developers. Features dark theme, smooth animations, and technical aesthetic inspired by popular code editors.</p>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-item">React</span>
+                            <span class="tech-item">Styled Components</span>
+                            <span class="tech-item">Framer Motion</span>
+                            <span class="tech-item">Netlify</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/riturajratan" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.riturajratan.com" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <a href="https://www.riturajratan.com" target="_blank">
+                            <div class="project-img">
+                                <div class="project-placeholder portfolio">
+                                    <div class="logo-container">
+                                        <div class="code-icon">&lt;/&gt;</div>
+                                        <span class="logo-text">Developer Portfolio</span>
+                                        <div class="logo-subtitle">Personal Website</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="other-projects">
+                <div class="other-projects-header">
+                    <h3>Other Noteworthy Projects</h3>
+                    <a href="https://github.com/riturajratan" target="_blank" class="archive-link">
+                        view the archive
+                    </a>
+                </div>
+                <div class="other-projects-grid">
+                    <div class="other-project">
+                        <div class="project-top">
+                            <div class="project-folder">
+                                <i class="fas fa-folder"></i>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/riturajratan" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-title">E-Commerce Platform</div>
+                        <div class="project-description">
+                            Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.
+                        </div>
+                        <div class="project-tech-list">
+                            <span>MERN Stack</span>
+                            <span>Stripe</span>
+                            <span>JWT</span>
+                        </div>
+                    </div>
+
+                    <div class="other-project">
+                        <div class="project-top">
+                            <div class="project-folder">
+                                <i class="fas fa-folder"></i>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/riturajratan" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-title">Real-time Chat App</div>
+                        <div class="project-description">
+                            Multi-room chat application with real-time messaging, file sharing, and user presence indicators.
+                        </div>
+                        <div class="project-tech-list">
+                            <span>Socket.io</span>
+                            <span>Express</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+
+                    <div class="other-project">
+                        <div class="project-top">
+                            <div class="project-folder">
+                                <i class="fas fa-folder"></i>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/riturajratan" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-title">Task Management System</div>
+                        <div class="project-description">
+                            Kanban-style project management tool with drag-and-drop interface and team collaboration features.
+                        </div>
+                        <div class="project-tech-list">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-number">06.</div>
+                <div class="section-title">Get In Touch</div>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-hero">
+                <div class="terminal-prompt">
+                    <span class="prompt-symbol">$</span>
+                    <span class="prompt-text">./connect --with rituraj</span>
+                    <span class="blink-cursor">_</span>
+                </div>
+                <h2 class="contact-heading">
+                    <span class="heading-line">Let's Create</span>
+                    <span class="heading-line highlight-text">Something Amazing</span>
+                    <span class="heading-line">Together</span>
+                </h2>
+                <p class="contact-description">
+                    Currently open to new opportunities and interesting projects. 
+                    Choose your preferred way to connect, or send a quick message below.
+                </p>
+                <div class="cv-download-container">
+                    <a href="resume.pdf" download="Rituraj_Ratan_Resume.pdf" class="cv-download-btn">
+                        <div class="cv-icon">
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <span class="cv-text">Download My Resume</span>
+                        <div class="cv-size">PDF • 1.2MB</div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="contact-grid">
+                <!-- Left Side: Contact Form -->
+                <div class="contact-left">
+                    <div class="form-header">
+                        <h3>Send a Quick Message</h3>
+                        <p>Fill out the form and I'll get back to you within 24 hours</p>
+                    </div>
+                    
+                    <div class="contact-form-container">
+                        <div class="terminal-window">
+                            <div class="terminal-header">
+                                <div class="terminal-buttons">
+                                    <span class="btn-close"></span>
+                                    <span class="btn-minimize"></span>
+                                    <span class="btn-maximize"></span>
+                                </div>
+                                <div class="terminal-title">contact-form.js</div>
+                            </div>
+                            <div class="terminal-body">
+                                <form class="contact-form" method="POST" action="https://formspree.io/f/riturajratan@gmail.com">
+                                    <div class="form-group">
+                                        <label for="name">const name =</label>
+                                        <input type="text" id="name" name="name" placeholder='"Your Name"' required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">const email =</label>
+                                        <input type="email" id="email" name="email" placeholder='"your.email@domain.com"' required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="subject">const subject =</label>
+                                        <input type="text" id="subject" name="subject" placeholder='"Subject Line"' required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message">const message =</label>
+                                        <textarea id="message" name="message" placeholder='"Your message here..."' rows="5" required></textarea>
+                                    </div>
+                                    <div class="form-submit">
+                                        <div class="submit-line">
+                                            <span class="comment">// Send message</span>
+                                        </div>
+                                        <button type="submit" class="submit-button">
+                                            <span class="method">sendMessage</span><span class="parentheses">()</span>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Side: Location & Map -->
+                <div class="contact-right">
+                    <div class="map-section">
+                        <div class="terminal-window">
+                            <div class="terminal-header">
+                                <div class="terminal-buttons">
+                                    <span class="btn-close"></span>
+                                    <span class="btn-minimize"></span>
+                                    <span class="btn-maximize"></span>
+                                </div>
+                                <div class="terminal-title">location.json</div>
+                            </div>
+                            <div class="terminal-body">
+                                <div class="location-code">
+                                    <div class="code-line">
+                                        <span class="code-key">"name"</span>: <span class="code-string">"Rituraj Singh Ratan"</span>,
+                                    </div>
+                                    <div class="code-line">
+                                        <span class="code-key">"location"</span>: <span class="code-string">"Jaipur, Rajasthan"</span>,
+                                    </div>
+                                    <div class="code-line">
+                                        <span class="code-key">"country"</span>: <span class="code-string">"India"</span>,
+                                    </div>
+                                    <div class="code-line">
+                                        <span class="code-key">"timezone"</span>: <span class="code-string">"UTC+5:30"</span>,
+                                    </div>
+                                    <div class="code-line">
+                                        <span class="code-key">"availability"</span>: <span class="code-string">"Remote Worldwide"</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="map-container">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.4788057041!2d75.77820930000001!3d26.871257300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDUyJzE2LjUiTiA3NcKwNDYnNDEuNiJF!5e0!3m2!1sen!2sin!4v1640000000000!5m2!1sen!2sin" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="Rituraj Ratan Location - Jaipur, Rajasthan, India">
+                            </iframe>
+                        </div>
+                        
+                        <div class="quick-contact">
+                            <a href="mailto:riturajratan@gmail.com" class="quick-contact-btn">
+                                <i class="fas fa-envelope"></i>
+                                <span>riturajratan@gmail.com</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/riturajratan" target="_blank" class="quick-contact-btn">
+                                <i class="fab fa-linkedin"></i>
+                                <span>/in/riturajratan</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>Built with <span class="heart">❤️</span> by Rituraj Singh Ratan</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/riturajratan" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/riturajratan" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://stackoverflow.com/users/991275/rituraj-ratan" target="_blank">
+                        <i class="fab fa-stack-overflow"></i>
+                    </a>
+                    <a href="https://twitter.com/RatanRituraj" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="js/resume-main.js"></script>
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-45791862-1', 'riturajratan.com');
+        ga('send', 'pageview');
+    </script>
+</body>
+</html>
